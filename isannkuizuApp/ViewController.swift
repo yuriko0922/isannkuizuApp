@@ -9,7 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var questionNum: UINavigationItem!
+    
+    @IBOutlet var questions: UIView!
+    
+    
+    @IBOutlet weak var answerbutton: UIStackView!
+    
+    var countQuestion: Int = 0
+    
+    var answerCheck: [Bool] = []
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
