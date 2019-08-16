@@ -12,6 +12,7 @@
 		BE16955C2302AB78000D489A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE16955A2302AB78000D489A /* Main.storyboard */; };
 		BE16955E2302AB79000D489A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE16955D2302AB79000D489A /* Assets.xcassets */; };
 		BE1695612302AB79000D489A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE16955F2302AB79000D489A /* LaunchScreen.storyboard */; };
+		BE17340823054ABC005419AE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17340723054ABC005419AE /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BE16955D2302AB79000D489A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE1695602302AB79000D489A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE1695622302AB79000D489A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE17340723054ABC005419AE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				BE16955D2302AB79000D489A /* Assets.xcassets */,
 				BE16955F2302AB79000D489A /* LaunchScreen.storyboard */,
 				BE1695622302AB79000D489A /* Info.plist */,
+				BE17340723054ABC005419AE /* TableViewController.swift */,
 			);
 			path = isannkuizuApp;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE1695592302AB78000D489A /* ViewController.swift in Sources */,
+				BE17340823054ABC005419AE /* TableViewController.swift in Sources */,
 				BE1695572302AB78000D489A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
